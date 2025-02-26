@@ -5,3 +5,4 @@ if notaIn<5:
 else:
     calificacion="Aprobado"
 print(calificacion)
+print(calificacion)
