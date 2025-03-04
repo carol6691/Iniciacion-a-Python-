@@ -1,0 +1,9 @@
+#titulo{
+    text-align: center;
+    font-size: xx-large;
+    background-color: blueviolet;
+    background: linear-gradient(top, blue);
+    width: 50%;
+    border-radius: 1px;
+
+}
