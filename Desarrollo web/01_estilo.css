@@ -1,9 +1,21 @@
 #titulo{
     text-align: center;
-    font-size: xx-large;
-    background-color: blueviolet;
-    background: linear-gradient(top, blue);
-    width: 50%;
-    border-radius: 1px;
+    font-size: 50px;
+    background-color: rgb(169, 97, 149);
+    background: linear-gradient(top, blue, rgb(158, 83, 95));
+    background: -ms-linear-gradient (bottom green);
+    width: 80%;
+    border-radius: 100px;
+    margin: 50px;
 
+}
+
+.imagen{
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    border: 1px solid red;
+    float: left;
+    margin: 100px 50px 100px 50px;
+    border-radius: 10px;    
 }
