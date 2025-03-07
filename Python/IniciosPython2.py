@@ -74,5 +74,46 @@ print (texto.strip())
 texto = "texto de hola"
 print (texto.replace("hola", "amor"))
 #next
-edad = int(input("Introduce edad miserable:"))
-print ("Next year you'll have", edad + 1)
+
+#next
+n_numero2 = 34
+n_numero3 = 34
+n_numero2 != n_numero3
+#next
+n_numero2 = 34
+n_numero3 = 35
+n_numero2 != n_numero3
+#next
+n_numero6 = 34
+n_numero6 += 1
+n_numero6 = n_numero6 + 2
+print(n_numero6)
+#next
+a = True
+b = False
+resultado = a and b
+print (resultado)
+#next
+a = True
+b = False
+resultado = a or b
+print (resultado)
+#next
+a = True
+b = False
+resultado = not b
+print (resultado)
+#next
+a = (1, 2, 3, 4, 5)
+print("La dirección de memoria es" , id(a))
+#next
+a = 65
+print("La dirección de memoria es" , id(a))
+#next
+d = {'carolina': 33, 
+     'juan': 61}
+for k in d:
+    info = '{}: {}'.format(k, d[k])
+    print (info)
+    
+    

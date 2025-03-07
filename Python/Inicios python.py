@@ -137,3 +137,22 @@ print (a(a = 1))
 def a(*a, b, c):
     return a, b, c
 print (a(1, c = 3, b = 4))
+#next
+a = 4
+b = 2
+if a < b:
+    print ("correcto")
+else:
+    print ("x")
+#next
+a = 4
+b = 2
+print ("correcto" if a > b else "mentira")
+#NEXT - 
+edad = int(input('Introduce tu edad: '))
+if edad > 40:
+    print ("adulto")
+elif edad == 40:
+    print ("cuarenton")
+else: 
+    print ("joven")
