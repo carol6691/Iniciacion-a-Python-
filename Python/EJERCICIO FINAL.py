@@ -5,8 +5,10 @@ print (input("Elige una opción:"))
 if 1 
 
 
-class = xxxx
+class Opciones:
+    
+
 
 
 lista = ["carol", "miguel", "aaron"]
-print (list(enumerate(lista)))
+print ((enumerate(lista)))
