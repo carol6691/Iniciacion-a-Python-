@@ -110,8 +110,118 @@ for x in peliculas:
 #next - 
 import random
 dir (random)
-#
-lista = ["carol", "miguel"]
-print (list(enumerate(lista, start=1), f"{indice}: {valor}", end=' '))
-
+#next
+#lista = ["carol", "miguel"]
+#print (list(enumerate(lista, start=1), f"{indice}: {valor}", end=' '))
+#next
+#num = int(input('Introduce un número: '))
+#add = num+1
+#print (add)
+#next
+#a, b, c = map(int, input("Introduzca 3 números: ").split())
+#print ("Los números son:", a, b, c, end = " ")
+#print()
+#print ("Gracias")
+#next
+#mi_set = set()
+#s = int(input("Introduzca el tamaño del set: "))
+#print("Introduzca los elementos del set:")
+#for i in range(s):
+#    mi_set.add(int(input()))
+#print(mi_set)
+#next
+#numeros = list(map(int, input("Introduzca X números: ").split()))
+#print ("Los números son:", numeros, end = " ")
+#print()
+#next
+#numeros = set(map(int, input("Introduzca X números: ").split()))
+#print ("Los números son:", numeros, end = " ")
+#print()
+#next
+#mi_tupla = (1, 2, 3)
+#mi_lista = list(mi_tupla)
+#mi_lista.append(int(input("Introduzca los elementos de la tupla:")))
+#mi_tupla = tuple(mi_lista)
+#print(mi_tupla)
+#next
+#t = int(input("Introduzca el tamaño de la tupla: ")) 
+#mi_lista = []
+#for i in range(t):
+ #   mi_lista.append(int(input("Introduzca los elementos de la tupla:")))
+#mi_tupla = tuple(mi_lista)
+#print(mi_tupla)
+#next
+print ("G, H, I")
+print("GHI", end = ':')
+print()
+print ("G", "H", "I", sep = "@")
+#next
+n = "Carolina"
+print ("Hola", n ,". Que tal")
+#next
+n = "Carolina"
+print (f"Hola {n}. Que tal")
+#next
+a = 1
+b = -2
+sum = a/b
+print ("la suma es %f" %sum)
+#next
+def indexador(objeto, indice):
+    return objeto [indice]
+print (indexador('carolina', 0))
+#next
+def indexador(objeto, indice):
+    return objeto [indice]
+try:
+    indexador('carolina', 10)
+except IndexError: 
+    print ("indice muy grande")
+#next
+def indexador(objeto, indice):
+    return objeto [indice]
+try:
+    indexador('carolina', hola)
+except IndexError: 
+    print ("indice muy alto")
+except NameError: 
+    print ("error en el indice")
+print ("FIN")
+#next
+z = 5
+u = 2
+assert (z>u), 'assert error'
+print("el assert no se ha ejecutado")
+#next
+z = 5
+u = 4
+assert (z>u), 'assert error'
+print("el assert no se ha ejecutado")
+#next
+#class mipropiaexcepcion (Exception):
+#    pass
+#try:
+#    raise mipropiaexcepcion
+#except mipropiaexcepcion:
+#    print ("todo ok")
+#next
+#class mipropiaexcepcion (Exception):
+#    def __init__(self, valor):
+#        self.valor = valor
+#    def __str__(self):
+#        return str(self.valor)
+#raise (mipropiaexcepcion("errorcito"))
+#next
+def indexador(objeto, indice):
+    return objeto [indice]
+try:
+    indexador('carolina', 1)
+    print("no se ejecuta")
+except IndexError:
+    print ("capturamos error")
+else:
+    print ("perfecto")
+finally:
+    print("se imprime haya o no excepcion")
+print ("hola")
 
