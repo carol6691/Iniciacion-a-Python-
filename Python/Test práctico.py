@@ -47,3 +47,8 @@ if a == b:
 else:
     print ("no es capicupa")
 #EJERCICIO
+edad = 20
+if edad >= 18:
+    print ("f")
+else:
+    print ("no")
